@@ -1,3 +1,4 @@
 # Home Security System 🚨🏠
+![image](https://github.com/user-attachments/assets/9af33bce-9f4b-4780-9eea-a44fac0090c5)
 
 This project simulates a home security system. When the program starts, the system is disarmed, as indicated by the LCD display and a lit green LED. Using the keypad, the system can be turned on and off  by entering the correct four-digit code (1234). If the input is right, the system's newly updated state will be displayed on the LCD panel. If not, the user is told to try again on the LCD display. When the system is armed, the LED is lit red, the PIR sensor detects movement and the distance sensor determines its distance. When motion is detected, the buzzer sounds and the LED flashes blue and white alternately. The interval and level of beeps and flashing will vary depending on distance (the closer, the faster). To view the most recent detection’s distance (in cm), press the push-button in its disarmed state to toggle the display.
